@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+    nice:
+        image: kramercc/nice:1.1
+        container_name: nicely
+        ports:
+            - "80:80"
